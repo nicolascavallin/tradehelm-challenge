@@ -1,0 +1,43 @@
+.button {
+
+    background-color: #E2E8F0;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    transition-duration: 250ms;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 0.5rem;
+    height: 2.75rem;
+
+}
+
+.button:hover {
+    background-color: #CBD5E0;
+    cursor: pointer;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button:active {
+    background-color: #A0AEC0;
+}
+
+.primary {
+    background-color: #4299E1;
+    color: white;
+    font-weight: 500;
+}
+
+.primary:hover {
+    background-color: #3182CE;
+    color: white;
+}
+
+.primary:active {
+    background-color: #2B6CB0;
+    color: white;
+}

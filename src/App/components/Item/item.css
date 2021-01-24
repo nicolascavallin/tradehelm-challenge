@@ -1,0 +1,17 @@
+.item-container {
+    width: 100%;
+    max-width: 600px;
+    border: solid 1px #CBD5E0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.15);
+}
+
+.item-container:last-child {
+    margin-bottom: 0;
+}

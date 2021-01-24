@@ -1,4 +1,17 @@
+# Tradehelm Challenge
+
 ![Tradehelm](./public/logo.svg "TradeHelm")
+
+- Challenge by [@TradeHelmLife](https://twitter.com/TradeHelmLife) y [@goncy](https://twitter.com/goncy).
+
+
+## Demo
+
+[tradehelm-challenge.web.app](https://tradehelm-challenge.web.app)
+
+---
+
+## Instructivo
 
 En el camino desde mi casa al supermercado, mi cerebro pierde la capacidad de retener información, por ende necesito hacer una aplicación que se encargue de esa difícil tarea. No, no puedo usar Google Keep, Evernote, nada, soy dev, la tengo que hacer, además esto es un challenge así que agarrá la pala.
 
