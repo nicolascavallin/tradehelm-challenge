@@ -13,8 +13,5 @@
 
 .item-button:focus {
     outline: none;
-}
-
-.item-button:active {
-    font-weight: 500;
+    background-color: #e5e5e5;
 }

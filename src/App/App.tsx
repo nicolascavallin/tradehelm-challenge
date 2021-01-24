@@ -32,7 +32,12 @@ const App: React.FC = () => {
 
   return (
     <>
-      <TodosScreen items={items} setOpenModal={() => setOpenModal(true)} status={status} />
+      <TodosScreen
+        items={items}
+        openModal={openModal}
+        setOpenModal={() => setOpenModal(true)}
+        status={status}
+      />
       {openModal && <ModalScreen setOpenModal={() => setOpenModal(false)} />}
     </>
   );

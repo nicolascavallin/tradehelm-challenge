@@ -8,10 +8,11 @@ import "./todosScreen.css";
 interface Props {
   status: "loading" | "ready";
   items: ItemType[];
+  openModal: boolean;
   setOpenModal: () => void;
 }
 
-const TodosScreen: React.FC<Props> = ({status, items, setOpenModal}: Props) => {
+const TodosScreen: React.FC<Props> = ({status, items, openModal, setOpenModal}: Props) => {
   return (
     <div className="main-container">
       <div className="top-container">
@@ -41,7 +42,7 @@ const TodosScreen: React.FC<Props> = ({status, items, setOpenModal}: Props) => {
             </div>
           </div>
           <div className="button-container animate__animated animate__bounceIn">
-            <Button primary onClick={setOpenModal}>
+            <Button autoFocus primary focus={!openModal} type="button" onClick={setOpenModal}>
               Add item
             </Button>
           </div>
