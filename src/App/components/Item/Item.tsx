@@ -11,7 +11,7 @@ interface Props {
 const Item: React.FC<Props> = ({item}: Props) => {
   return (
     <div className="item-container animate__animated animate__fadeIn">
-      <p>{item.title}</p>
+      <p className="item-text">{item.title}</p>
       <ItemButton item={item} />
     </div>
   );
